@@ -10,7 +10,7 @@ public class ReturnNumber : MonoBehaviour
 		var text = GetComponentInChildren<TextMeshProUGUI>();
 		if (text.text.IsNumeric())
 		{
-			this.transform.parent.parent.GetComponent<NumpadInput>().AddNumberToList(int.Parse(text.text));
+			transform.parent.parent.GetComponent<NumpadInput>().AddNumberToList(int.Parse(text.text));
 		}
 	}
 }

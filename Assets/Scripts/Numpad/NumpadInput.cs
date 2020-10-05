@@ -16,7 +16,6 @@ public class NumpadInput : MonoBehaviour
 	{
 		listOfNumbers.Add(number);
 		numbersAmount++;
-		Debug.Log("numbersamount" + numbersAmount);
 		ListToText();
 	}
 
