@@ -14,9 +14,12 @@ public class NumpadInput : MonoBehaviour
 
 	public void AddNumberToList(int number)
 	{
-		listOfNumbers.Add(number);
-		numbersAmount++;
-		ListToText();
+		if(numbersAmount < 4)
+		{
+			listOfNumbers.Add(number);
+			numbersAmount++;
+			ListToText();
+		}
 	}
 
 	public void ListToText()
