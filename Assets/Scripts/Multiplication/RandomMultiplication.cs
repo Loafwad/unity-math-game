@@ -12,6 +12,8 @@ public class RandomMultiplication : MonoBehaviour
 	private TextMeshProUGUI text;
 	[SerializeField]
 	private NumpadInput numpadInput;
+	[SerializeField]
+	private FeedbackText feedbackText;
 
 	private int firstNumber;
 	private int secondNumber;
@@ -33,6 +35,7 @@ public class RandomMultiplication : MonoBehaviour
 		return firstNumber * secondNumber;
 	}
 
+	//when anaswer has been submitted
 	public void SubmitAnswer()
 	{
 		int numbers = numpadInput.AllNumbers();
@@ -45,6 +48,7 @@ public class RandomMultiplication : MonoBehaviour
 				numpadInput.RemoveLastNumber();
 			}
 			GenerateNewMathProblem();
+			feedbackText.ToggleCorrect();
 		}
 		else
 		{
@@ -53,6 +57,7 @@ public class RandomMultiplication : MonoBehaviour
 			{
 				numpadInput.RemoveLastNumber();
 			}
+			feedbackText.ToggleWrong();
 		}
 	}
 	private bool AnswerIsSame(int answer)
