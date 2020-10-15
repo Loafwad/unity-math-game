@@ -9,14 +9,14 @@ public class ToggleCheckmark : MonoBehaviour
 
 	private void Start()
 	{
-		checkmark = gameObject.transform.GetChild(2);
+		checkmark = gameObject.transform.GetChild(1);
 	}
 	public void Toggle()
 	{
+		toggle = !toggle;
 		if (toggle)
 		{
 			checkmark.gameObject.SetActive(true);
-			toggle = !toggle;
 		}
 		else
 		{
