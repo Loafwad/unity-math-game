@@ -54,6 +54,7 @@ public class RandomMultiplication : MonoBehaviour
 		else
 		{
 			Debug.Log("wrong");
+			FindObjectOfType<UniverseAnimation>().MakeNewPlanet();
 			for (int i = 0; i < amountOfNumbersInList; i++)
 			{
 				numpadInput.RemoveLastNumber();
