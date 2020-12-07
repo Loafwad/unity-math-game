@@ -52,4 +52,10 @@ public class FeedbackText : MonoBehaviour
 		}
 	}
 
+	public void DisableBoth()
+	{
+		correct.gameObject.SetActive(false);
+		wrong.gameObject.SetActive(false);
+	}
+
 }

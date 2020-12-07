@@ -1931,14 +1931,14 @@ RectTransform:
   m_GameObject: {fileID: 140069451}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 1.144482, y: 1.144482, z: 1.144482}
   m_Children: []
   m_Father: {fileID: 1932946103}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: 6}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &140069453
@@ -3223,7 +3223,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &284656458
 RectTransform:
   m_ObjectHideFlags: 0
@@ -7373,7 +7373,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.15566039, g: 0.6030869, b: 1, a: 1}
+  m_Color: {r: 0, g: 0.5817778, b: 1, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -13654,7 +13654,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &980783374
 RectTransform:
   m_ObjectHideFlags: 0
@@ -13685,9 +13685,32 @@ MonoBehaviour:
   m_GameObject: {fileID: 980783373}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ecf7630797073384abf36cddc6fbb628, type: 3}
+  m_Script: {fileID: 11500000, guid: 7d226ab246491614da5fcfaa9ed5802b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  verticalRotSpeed: 3
+  horizontalRotSpeed: 5
+  planetSprites: []
+  planetsParent: {fileID: 980783373}
+  spawnAnimCurve:
+    serializedVersion: 2
+    m_Curve: []
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  spawnAnimDuration: 0
+  spawnAnimDelay: 0
+  planetMinSize: 0
+  planetMaxSize: 0
+  zoomAnimCurve:
+    serializedVersion: 2
+    m_Curve: []
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  zoomAnimDuration: 0
+  zoomAnimDelay: 0
+  zoomDistance: 0
 --- !u!1 &1011119338
 GameObject:
   m_ObjectHideFlags: 0
@@ -17788,7 +17811,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.15566039, g: 0.6030869, b: 1, a: 1}
+  m_Color: {r: 0, g: 0.5817778, b: 1, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -20470,6 +20493,18 @@ MonoBehaviour:
         m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
         m_MethodName: SetActive
         m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
+      - m_Target: {fileID: 776302808}
+        m_TargetAssemblyTypeName: FeedbackText, Assembly-CSharp
+        m_MethodName: DisableBoth
+        m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
@@ -23533,7 +23568,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1653827603
 RectTransform:
   m_ObjectHideFlags: 0
@@ -27415,7 +27450,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0}
   m_AnchorMax: {x: 0.5, y: 0}
   m_AnchoredPosition: {x: 0, y: 128.7}
-  m_SizeDelta: {x: 224.70001, y: 72.21997}
+  m_SizeDelta: {x: 253.2, y: 90.5}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1932946104
 MonoBehaviour:
@@ -27497,15 +27532,15 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.15566039, g: 0.6030869, b: 1, a: 1}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 10905, guid: 0000000000000000f000000000000000, type: 3}
-  m_Type: 1
+  m_Sprite: {fileID: 21300000, guid: d228d61bb53b2ba40b1e9506d551e6c2, type: 3}
+  m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
   m_FillMethod: 4
@@ -28686,6 +28721,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 1
         m_CallState: 2
+      - m_Target: {fileID: 914548680}
+        m_TargetAssemblyTypeName: FeedbackText, Assembly-CSharp
+        m_MethodName: DisableBoth
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
 --- !u!114 &2007902515
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -29039,7 +29086,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &2039539854
 RectTransform:
   m_ObjectHideFlags: 0
@@ -29070,9 +29117,32 @@ MonoBehaviour:
   m_GameObject: {fileID: 2039539853}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ecf7630797073384abf36cddc6fbb628, type: 3}
+  m_Script: {fileID: 11500000, guid: 7d226ab246491614da5fcfaa9ed5802b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  verticalRotSpeed: 3
+  horizontalRotSpeed: 5
+  planetSprites: []
+  planetsParent: {fileID: 2039539853}
+  spawnAnimCurve:
+    serializedVersion: 2
+    m_Curve: []
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  spawnAnimDuration: 0
+  spawnAnimDelay: 0
+  planetMinSize: 0
+  planetMaxSize: 0
+  zoomAnimCurve:
+    serializedVersion: 2
+    m_Curve: []
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  zoomAnimDuration: 0
+  zoomAnimDelay: 0
+  zoomDistance: 0
 --- !u!1 &2042047979
 GameObject:
   m_ObjectHideFlags: 0

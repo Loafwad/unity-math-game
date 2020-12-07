@@ -43,7 +43,7 @@ public class RandomMultiplication : MonoBehaviour
 		if (AnswerIsSame(numbers))
 		{
 			Debug.Log("correct");
-			FindObjectOfType<UniverseAnimation>().MakeNewPlanet();
+			//FindObjectOfType<UniverseAnimation>().MakeNewPlanet();
 			for (int i = 0; i < amountOfNumbersInList; i++)
 			{
 				numpadInput.RemoveLastNumber();
@@ -54,7 +54,7 @@ public class RandomMultiplication : MonoBehaviour
 		else
 		{
 			Debug.Log("wrong");
-			FindObjectOfType<UniverseAnimation>().MakeNewPlanet();
+			//FindObjectOfType<UniverseAnimation>().MakeNewPlanet();
 			for (int i = 0; i < amountOfNumbersInList; i++)
 			{
 				numpadInput.RemoveLastNumber();
