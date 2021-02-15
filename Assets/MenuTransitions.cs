@@ -39,8 +39,18 @@ public class MenuTransitions : MonoBehaviour
 			Vector2 objectPos = new Vector2(buttons[i].buttObject.transform.position.x, buttons
 				[i].buttObject.transform.position.y);
 			originalPos.Add(objectPos);
+			Vector2 result = buttons[i].buttObject.transform.position;
+			result = buttons[i].newPosition * new Vector2(Mathf.Abs(Screen.width / 100), Mathf.Abs(Screen.height / 100));
+			if (buttons[i].newPosition.y == 0)
+			{
+				result.y = buttons[i].buttObject.transform.position.y;
+			}
+			if (buttons[i].newPosition.x == 0)
+			{
+				result.x = buttons[i].buttObject.transform.position.x;
+			}
 
-			LeanTween.move(buttons[i].buttObject, buttons[i].newPosition + objectPos, 0).setDelay(buttons[i].animDelay).setEase(buttons[i].animCurve);
+			LeanTween.move(buttons[i].buttObject, result, 0).setDelay(buttons[i].animDelay).setEase(buttons[i].animCurve);
 		}
 	}
 
@@ -74,8 +84,18 @@ public class MenuTransitions : MonoBehaviour
 				Vector2 objectPos = new Vector2(buttons[i].buttObject.transform.position.x, buttons
 				[i].buttObject.transform.position.y);
 				originalPos.Add(objectPos);
+				Vector2 result = buttons[i].buttObject.transform.position;
+				result = buttons[i].newPosition * new Vector2(Mathf.Abs(Screen.width / 100), Mathf.Abs(Screen.height / 100));
+				if (buttons[i].newPosition.y == 0)
+				{
+					result.y = buttons[i].buttObject.transform.position.y;
+				}
+				if (buttons[i].newPosition.x == 0)
+				{
+					result.x = buttons[i].buttObject.transform.position.x;
+				}
 
-				ExitTween = LeanTween.move(buttons[i].buttObject, buttons[i].newPosition + objectPos, buttons[i].animDuration).setDelay(buttons[i].animDelay).setEase(buttons[i].animCurve).setOnComplete(FinishedExiting);
+				ExitTween = LeanTween.move(buttons[i].buttObject, result, buttons[i].animDuration).setDelay(buttons[i].animDelay).setEase(buttons[i].animCurve).setOnComplete(FinishedExiting);
 			}
 		}
 	}

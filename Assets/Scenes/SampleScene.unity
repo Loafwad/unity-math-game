@@ -3944,7 +3944,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   buttons:
-  - newPosition: {x: 350, y: 0}
+  - newPosition: {x: 200, y: 0}
     animCurve:
       serializedVersion: 2
       m_Curve:
@@ -3981,7 +3981,7 @@ MonoBehaviour:
     animDuration: 0.5
     animDelay: 0
     buttObject: {fileID: 1210126310}
-  - newPosition: {x: -350, y: 0}
+  - newPosition: {x: -100, y: 0}
     animCurve:
       serializedVersion: 2
       m_Curve:
@@ -4018,7 +4018,7 @@ MonoBehaviour:
     animDuration: 0.5
     animDelay: 0
     buttObject: {fileID: 530238455}
-  - newPosition: {x: 350, y: 0}
+  - newPosition: {x: 200, y: 0}
     animCurve:
       serializedVersion: 2
       m_Curve:
@@ -4055,7 +4055,7 @@ MonoBehaviour:
     animDuration: 0.5
     animDelay: 0
     buttObject: {fileID: 1932946102}
-  - newPosition: {x: -350, y: 0}
+  - newPosition: {x: 0, y: 200}
     animCurve:
       serializedVersion: 2
       m_Curve:
@@ -4069,8 +4069,8 @@ MonoBehaviour:
         inWeight: 0
         outWeight: 0
       - serializedVersion: 3
-        time: 0.63014895
-        value: 0.9737587
+        time: 0.6357947
+        value: 0.9392967
         inSlope: 1.149854
         outSlope: 1.149854
         tangentMode: 0
@@ -6489,7 +6489,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   buttons:
-  - newPosition: {x: -350, y: 0}
+  - newPosition: {x: -100, y: 0}
     animCurve:
       serializedVersion: 2
       m_Curve:
@@ -6526,7 +6526,7 @@ MonoBehaviour:
     animDuration: 0.5
     animDelay: 0
     buttObject: {fileID: 567667752}
-  - newPosition: {x: 350, y: 0}
+  - newPosition: {x: 200, y: 0}
     animCurve:
       serializedVersion: 2
       m_Curve:
@@ -6563,7 +6563,7 @@ MonoBehaviour:
     animDuration: 0.5
     animDelay: 0
     buttObject: {fileID: 695839356}
-  - newPosition: {x: -350, y: 0}
+  - newPosition: {x: -100, y: 0}
     animCurve:
       serializedVersion: 2
       m_Curve:
@@ -6600,7 +6600,7 @@ MonoBehaviour:
     animDuration: 0.5
     animDelay: 0
     buttObject: {fileID: 1011119338}
-  - newPosition: {x: 0, y: 500}
+  - newPosition: {x: 0, y: 200}
     animCurve:
       serializedVersion: 2
       m_Curve:
@@ -11039,7 +11039,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   buttons:
-  - newPosition: {x: 350, y: 0}
+  - newPosition: {x: 200, y: 0}
     animCurve:
       serializedVersion: 2
       m_Curve:
@@ -11076,7 +11076,7 @@ MonoBehaviour:
     animDuration: 0.5
     animDelay: 0
     buttObject: {fileID: 1787036889}
-  - newPosition: {x: -350, y: 0}
+  - newPosition: {x: -100, y: 0}
     animCurve:
       serializedVersion: 2
       m_Curve:
@@ -11113,7 +11113,7 @@ MonoBehaviour:
     animDuration: 0.5
     animDelay: 0
     buttObject: {fileID: 1954012450}
-  - newPosition: {x: 350, y: 0}
+  - newPosition: {x: 200, y: 0}
     animCurve:
       serializedVersion: 2
       m_Curve:
@@ -11150,7 +11150,7 @@ MonoBehaviour:
     animDuration: 0.5
     animDelay: 0
     buttObject: {fileID: 1848371250}
-  - newPosition: {x: -350, y: 0}
+  - newPosition: {x: -100, y: 0}
     animCurve:
       serializedVersion: 2
       m_Curve:
@@ -11187,7 +11187,7 @@ MonoBehaviour:
     animDuration: 0.5
     animDelay: 0
     buttObject: {fileID: 2110008677}
-  - newPosition: {x: 350, y: 0}
+  - newPosition: {x: 200, y: 0}
     animCurve:
       serializedVersion: 2
       m_Curve:
@@ -11224,7 +11224,7 @@ MonoBehaviour:
     animDuration: 0.5
     animDelay: 0
     buttObject: {fileID: 1751599941}
-  - newPosition: {x: -350, y: 0}
+  - newPosition: {x: -100, y: 0}
     animCurve:
       serializedVersion: 2
       m_Curve:
@@ -11261,7 +11261,7 @@ MonoBehaviour:
     animDuration: 0.5
     animDelay: 0
     buttObject: {fileID: 1518738093}
-  - newPosition: {x: 500, y: 0}
+  - newPosition: {x: 200, y: 0}
     animCurve:
       serializedVersion: 2
       m_Curve:
@@ -11298,7 +11298,7 @@ MonoBehaviour:
     animDuration: 0.5
     animDelay: 0
     buttObject: {fileID: 2069357992}
-  - newPosition: {x: -350, y: 0}
+  - newPosition: {x: -100, y: 0}
     animCurve:
       serializedVersion: 2
       m_Curve:
@@ -11335,7 +11335,7 @@ MonoBehaviour:
     animDuration: 0.5
     animDelay: 0
     buttObject: {fileID: 1950487416}
-  - newPosition: {x: 350, y: 0}
+  - newPosition: {x: 200, y: 0}
     animCurve:
       serializedVersion: 2
       m_Curve:
@@ -11363,7 +11363,7 @@ MonoBehaviour:
     animDuration: 0.5
     animDelay: 0
     buttObject: {fileID: 1147405811}
-  - newPosition: {x: -350, y: 0}
+  - newPosition: {x: -100, y: 0}
     animCurve:
       serializedVersion: 2
       m_Curve:
@@ -11400,7 +11400,7 @@ MonoBehaviour:
     animDuration: 0.5
     animDelay: 0
     buttObject: {fileID: 1954990389}
-  - newPosition: {x: 350, y: 0}
+  - newPosition: {x: 200, y: 0}
     animCurve:
       serializedVersion: 2
       m_Curve:
@@ -11428,7 +11428,7 @@ MonoBehaviour:
     animDuration: 0.5
     animDelay: 0
     buttObject: {fileID: 944113619}
-  - newPosition: {x: -350, y: 0}
+  - newPosition: {x: -100, y: 0}
     animCurve:
       serializedVersion: 2
       m_Curve:
@@ -11456,7 +11456,7 @@ MonoBehaviour:
     animDuration: 0.5
     animDelay: 0
     buttObject: {fileID: 203597979}
-  - newPosition: {x: -350, y: 0}
+  - newPosition: {x: -100, y: 0}
     animCurve:
       serializedVersion: 2
       m_Curve:
@@ -11484,7 +11484,7 @@ MonoBehaviour:
     animDuration: 0.5
     animDelay: 0
     buttObject: {fileID: 1303803023}
-  - newPosition: {x: 350, y: 0}
+  - newPosition: {x: 200, y: 0}
     animCurve:
       serializedVersion: 2
       m_Curve:
@@ -19607,7 +19607,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   buttons:
-  - newPosition: {x: 350, y: 0}
+  - newPosition: {x: 200, y: 0}
     animCurve:
       serializedVersion: 2
       m_Curve:
@@ -19644,7 +19644,7 @@ MonoBehaviour:
     animDuration: 0.5
     animDelay: 0
     buttObject: {fileID: 539299948}
-  - newPosition: {x: -350, y: 0}
+  - newPosition: {x: -100, y: 0}
     animCurve:
       serializedVersion: 2
       m_Curve:
@@ -19681,7 +19681,7 @@ MonoBehaviour:
     animDuration: 0.5
     animDelay: 0
     buttObject: {fileID: 1778495798}
-  - newPosition: {x: 350, y: 0}
+  - newPosition: {x: 200, y: 0}
     animCurve:
       serializedVersion: 2
       m_Curve:
@@ -19718,7 +19718,7 @@ MonoBehaviour:
     animDuration: 0.5
     animDelay: 0
     buttObject: {fileID: 300892307}
-  - newPosition: {x: 0, y: 500}
+  - newPosition: {x: 0, y: 200}
     animCurve:
       serializedVersion: 2
       m_Curve:
