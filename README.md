@@ -1,3 +1,2 @@
 # MathGame
-Art: Anders Bojesen
-Programming: Nathaniel Brandal
+Programming & Art: Nathaniel Brandal
